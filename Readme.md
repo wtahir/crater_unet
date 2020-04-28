@@ -10,15 +10,15 @@ This notebook has all the steps from pre-processing of generation of binary mask
 
 To crop images (size 256x256):
 ```
-Crop_image.ipnyb
+crop_image.ipnyb
 ```
 Prepare data for u-net training using:
 ```
-DataPrepare.ipnyb
+dataPrepare.ipnyb
 ```
 For training and prediction, use the following notebook.
 ```
-TrainUnet.ipnyb
+trainUnet.ipnyb
 ```
 Model configuration is written in:
 ```
