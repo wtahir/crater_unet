@@ -8,7 +8,7 @@ maskfrom_json.ipynb
 ```
 This notebook has all the steps from pre-processing of generation of binary masks from annotations (json) and application of binary image filters to extract features from lunar optical images. 
 
-To crop images of the sizes 256x256.
+To crop images (size 256x256) use:
 ```
 Crop_image.ipnyb
 ```
