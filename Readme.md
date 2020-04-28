@@ -8,20 +8,25 @@ maskfrom_json.ipynb
 ```
 This notebook has all the steps from pre-processing of generation of binary masks from annotations (json) and application of binary image filters to extract features from lunar optical images. 
 
-To crop images (size 256x256) use:
+To crop images (size 256x256):
 ```
 Crop_image.ipnyb
 ```
-DataPrepare.ipnyb is for data preparation for u-net training
-
-Plotting sigmoig_relu.ipnyb are the plotting functions for relu and sigmoid functions
-
-TrainUnet.ipnyb is a jupyter notebook for training and prediction of dataset.
-
-- Main.py is the model configuration
-
-- Model.py is model architecture
-
- All other functions are named after the task.  
+Prepare data for u-net training using:
+```
+DataPrepare.ipnyb
+```
+For training and prediction, use the following notebook.
+```
+TrainUnet.ipnyb
+```
+Model configuration is written in:
+```
+main.py
+```
+Model architecture is given in presented in following file. The model is based on u-net written by [Ronneberger et al., 2015] and keras implementation by [https://github.com/zhixuhao]
+```
+model.py is 
+```
 
 
